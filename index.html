@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#274b8f" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <title>小島漫步</title>
+  </head>
+  <body>
+    <canvas id="game"></canvas>
+
+    <div id="hint">
+      <span class="desktop">WASD／方向鍵移動・拖曳滑鼠轉視角・空白鍵跳躍・Shift 奔跑</span>
+      <span class="touch">左半邊拖曳移動・右半邊拖曳轉視角</span>
+    </div>
+
+    <div id="stick"><div id="knob"></div></div>
+    <button id="jump" aria-label="跳躍">跳</button>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
