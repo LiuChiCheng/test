@@ -31,7 +31,9 @@ body {
   background: rgba(20, 30, 60, 0.45);
   color: #fff;
   font-size: 13px;
-  white-space: nowrap;
+  max-width: 88vw;
+  width: max-content;
+  text-align: center;
   pointer-events: none;
   transition: opacity 1s;
 }

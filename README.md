@@ -29,7 +29,12 @@ npm run typecheck  # TypeScript 型別檢查
 
 - `src/main.ts` — 進入點：渲染器、玩家、鏡頭、主迴圈
 - `src/input.ts` — 輸入層（鍵盤、滑鼠、觸控搖桿統一成同一組數值）
-- `src/terrain.ts` — 小島地形與高度函式
-- `src/world.ts` — 天空、海、山脈、浮空島、樹木等場景
+- `src/atmosphere.ts` — 太陽方向、霧色與天空／水面共用的著色器程式
+- `src/sky.ts` — 天空漸層、太陽與流動的雲
+- `src/water.ts` — 海面著色器（波紋、反射、波光、淺灘與浪花）
+- `src/terrain.ts` — 小島地形、高度函式與地表貼圖
+- `src/vegetation.ts` — 樹木、草叢、花、岩石、石柱
+- `src/scenery.ts` — 遠方群島、天邊山脈、環狀行星、飛鳥
+- `src/world.ts` — 組合場景與光影
 - `src/noise.ts` — 雜訊與亂數工具
 - `.github/workflows/deploy.yml` — 自動部署流程
